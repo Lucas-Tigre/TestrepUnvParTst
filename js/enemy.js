@@ -3,7 +3,7 @@ import { createProjectile } from './projectile.js';
 // SISTEMA DE INIMIGOS v2.0
 // ======================
 
-// 🔹 Função utilitária para gerar números aleatórios de forma simples
+// Função utilitária para gerar números aleatórios de forma simples
 function rand(min = 0, max = 1) {
   return Math.random() * (max - min) + min;
 }
